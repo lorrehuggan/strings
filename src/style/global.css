@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ProseMirror p {
+    @apply my-0 leading-none;
+}
+.ProseMirror h1 {
+    @apply tracking-tighter leading-none mb-2 mt-0;
+}
+.ProseMirror h2 {
+    @apply tracking-tighter leading-none mb-2 mt-0;
+}
+.ProseMirror h3 {
+    @apply tracking-tighter leading-none mb-2 mt-0;
+}
+.ProseMirror h4 {
+    @apply tracking-tighter leading-none mb-2 mt-0;
+}
+.ProseMirror h5 {
+    @apply tracking-tighter leading-none mb-2 mt-0;
+}
+.ProseMirror h5 {
+    @apply tracking-tighter leading-none mb-2 mt-0;
+}
