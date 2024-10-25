@@ -1,10 +1,15 @@
-import MainLayout from "../../layouts/main";
-import EditorContainer from "../../components/editor";
+import EditorContainer from "~/components/editor";
+import { Content, LeftBar, RightBar, RootLayout, Topbar } from "~/layouts/main";
 
 export default function Page() {
-  return (
-    <MainLayout>
-      <EditorContainer />
-    </MainLayout>
-  );
+	return (
+		<RootLayout>
+			<Topbar children />
+			<LeftBar children />
+			<Content>
+				<EditorContainer />
+			</Content>
+			<RightBar children />
+		</RootLayout>
+	);
 }

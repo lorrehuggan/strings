@@ -1191,6 +1191,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70"
 
 [[package]]
+name = "html2md-rs"
+version = "0.10.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b2535f510e784fd2296b467cfa83dac629e71fe99d439a540ec4e854054035c3"
+
+[[package]]
 name = "html5ever"
 version = "0.26.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2923,6 +2929,7 @@ dependencies = [
 name = "strings"
 version = "0.1.0"
 dependencies = [
+ "html2md-rs",
  "serde",
  "serde_json",
  "tauri",
